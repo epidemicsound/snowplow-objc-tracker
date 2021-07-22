@@ -25,11 +25,8 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Snowplow/**/*.{h}'
   s.exclude_files = 'Snowplow/include/*.{m,h}'
 
-  s.osx.exclude_files = 'Snowplow/**/ScreenViewTracking/UIViewController+SPScreenView_SWIZZLE.*'
-  s.tvos.exclude_files = 'Snowplow/**/ScreenViewTracking/UIViewController+SPScreenView_SWIZZLE.*'
   s.watchos.exclude_files = [
     'Snowplow/**/SNOWReachability.*',
-    'Snowplow/**/UIViewController+SPScreenView_SWIZZLE.*'
   ]
 
   s.ios.frameworks = 'CoreTelephony', 'UIKit', 'Foundation'

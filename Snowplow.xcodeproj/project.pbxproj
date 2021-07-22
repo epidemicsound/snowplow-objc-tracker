@@ -45,10 +45,8 @@
 		752DAC4021CC4A830065F874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB67D8C192D9552009A1ECE /* UIKit.framework */; };
 		752DAC4221CC60F20065F874 /* Snowplow-umbrella-header.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D6061E21C9CA8A00C7B016 /* Snowplow-umbrella-header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7534D20122569BED00904EE5 /* SPScreenState.m in Sources */ = {isa = PBXBuildFile; fileRef = 754774BB2225FBA60043B814 /* SPScreenState.m */; };
-		7534D20222569BED00904EE5 /* UIViewController+SPScreenView_SWIZZLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 754774CC222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m */; };
 		7534D20322569BED00904EE5 /* SPInstallTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75264A31224E5DD2000E0E9B /* SPInstallTracker.m */; };
 		7534D20422569BFF00904EE5 /* SPScreenState.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774BF2225FBB90043B814 /* SPScreenState.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7534D20522569BFF00904EE5 /* UIViewController+SPScreenView_SWIZZLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774CB222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7534D20622569BFF00904EE5 /* SPInstallTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 75264A2F224E5DBC000E0E9B /* SPInstallTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7534D20822569F3400904EE5 /* TestScreenState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534D20722569F3400904EE5 /* TestScreenState.m */; };
 		753DDA6D21F803B10007C3AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753DDA6C21F803B10007C3AE /* Cocoa.framework */; };
@@ -58,8 +56,6 @@
 		754774C02225FBB90043B814 /* SPScreenState.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774BF2225FBB90043B814 /* SPScreenState.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		754774C12225FBB90043B814 /* SPScreenState.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774BF2225FBB90043B814 /* SPScreenState.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		754774C22225FBB90043B814 /* SPScreenState.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774BF2225FBB90043B814 /* SPScreenState.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		754774CD222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 754774CB222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		754774D0222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 754774CC222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m */; };
 		75CAC40521F2955100271FB3 /* TestSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAC3F121F2955000271FB3 /* TestSession.m */; };
 		75CAC40621F2955100271FB3 /* TestEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAC3F221F2955000271FB3 /* TestEventStore.m */; };
 		75CAC40721F2955100271FB3 /* TestPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAC3F321F2955000271FB3 /* TestPayload.m */; };
@@ -771,8 +767,6 @@
 		753DDA6C21F803B10007C3AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		754774BB2225FBA60043B814 /* SPScreenState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPScreenState.m; sourceTree = "<group>"; };
 		754774BF2225FBB90043B814 /* SPScreenState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPScreenState.h; sourceTree = "<group>"; };
-		754774CB222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPScreenView_SWIZZLE.h"; sourceTree = "<group>"; };
-		754774CC222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPScreenView_SWIZZLE.m"; sourceTree = "<group>"; };
 		75CAC3B921F28BD600271FB3 /* SnowplowIgluClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnowplowIgluClient.framework; path = Carthage/Build/iOS/SnowplowIgluClient.framework; sourceTree = "<group>"; };
 		75CAC3C021F2930100271FB3 /* VVJSONSchemaValidation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVJSONSchemaValidation.framework; path = Carthage/Build/iOS/VVJSONSchemaValidation.framework; sourceTree = "<group>"; };
 		75CAC3F121F2955000271FB3 /* TestSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSession.m; sourceTree = "<group>"; };
@@ -1411,8 +1405,6 @@
 			children = (
 				754774BF2225FBB90043B814 /* SPScreenState.h */,
 				754774BB2225FBA60043B814 /* SPScreenState.m */,
-				754774CB222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h */,
-				754774CC222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m */,
 			);
 			path = ScreenViewTracking;
 			sourceTree = "<group>";
@@ -1524,7 +1516,6 @@
 				ED88672B2573C1F100DB53BB /* SPSessionConfiguration.h in Headers */,
 				EDD8543424EFFFB300661F6B /* SPRequest.h in Headers */,
 				ED88B5692578F8820048FAD1 /* SPEmitterConfiguration.h in Headers */,
-				754774CD222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.h in Headers */,
 				75264A30224E5DBC000E0E9B /* SPInstallTracker.h in Headers */,
 				ED88B6DB2583DFC80048FAD1 /* SPServiceProvider.h in Headers */,
 				EDDD7039264F27E700259404 /* SPNetworkConfigurationUpdate.h in Headers */,
@@ -1816,7 +1807,6 @@
 				EDDD701E264F230400259404 /* SPSubjectConfigurationUpdate.h in Headers */,
 				ED7F082126191108005D377E /* SPConfigurationProvider.h in Headers */,
 				EDDD7032264F25A200259404 /* SPSessionConfigurationUpdate.h in Headers */,
-				7534D20522569BFF00904EE5 /* UIViewController+SPScreenView_SWIZZLE.h in Headers */,
 				CE4F9C9D244B066500968CFC /* SPEvent.h in Headers */,
 				ED88B7702587B4F00048FAD1 /* SPNetworkController.h in Headers */,
 				ED7F0843261924BF005D377E /* SPConfigurationFetcher.h in Headers */,
@@ -2153,7 +2143,6 @@
 				ED88B5AB25792C620048FAD1 /* SPEmitterControllerImpl.m in Sources */,
 				CE4F9CC6244B066500968CFC /* SPSchemaRuleset.m in Sources */,
 				EDDD7047264F2A8800259404 /* SPEmitterConfigurationUpdate.m in Sources */,
-				754774D0222756470043B814 /* UIViewController+SPScreenView_SWIZZLE.m in Sources */,
 				CE4F9CDA244B066500968CFC /* SPPageView.m in Sources */,
 				ED34672E26415C1D0018BA61 /* SPJSONSerialization.m in Sources */,
 				ED88B7952587B5620048FAD1 /* SPNetworkControllerImpl.m in Sources */,
@@ -2437,7 +2426,6 @@
 				ED88B6E22583DFC90048FAD1 /* SPServiceProvider.m in Sources */,
 				CE4F9C99244B066500968CFC /* SPEcommerceItem.m in Sources */,
 				ED88B614257956490048FAD1 /* SPGDPRControllerImpl.m in Sources */,
-				7534D20222569BED00904EE5 /* UIViewController+SPScreenView_SWIZZLE.m in Sources */,
 				7534D20322569BED00904EE5 /* SPInstallTracker.m in Sources */,
 				ED277BD92625F220002C7B6D /* SPConfigurationBundle.m in Sources */,
 				CE4F9C95244B066500968CFC /* SPForeground.m in Sources */,
