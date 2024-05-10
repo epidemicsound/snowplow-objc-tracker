@@ -1,0 +1,8 @@
+name: Run Snyk Scan for Package Vulnerabilities for snowplow-objc-tracker
+'on': push
+jobs:
+  snyk-scan-ruby:
+    permissions:
+      contents: read
+      id-token: write
+    uses: epidemicsound/github-workflows/.github/workflows/snyk-scan-ruby.yaml@main
